@@ -7,11 +7,6 @@ pipeline {
     }
     agent any 
     stages { 
-        stage('Cloning our Git') { 
-            steps { 
-                git 'https://github.com/ahmedsopeah/simple-python-app.git' 
-            }
-        } 
         stage('Building our image') { 
             steps { 
                 script { 
