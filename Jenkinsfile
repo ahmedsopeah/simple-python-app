@@ -11,7 +11,7 @@ pipeline {
       }
     }
     stage('Login') {
-	@@ -19,7 +17,7 @@ pipeline {
+
     }
     stage('Push') {
       steps {
@@ -19,7 +19,7 @@ pipeline {
       }
     }
   }
-	@@ -28,4 +26,4 @@ pipeline {
+
       sh 'docker logout'
     }
   }
